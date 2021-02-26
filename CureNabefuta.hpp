@@ -6,13 +6,13 @@ private:
 	int flag;
 
 public:
-	Nabefuta(int num);
-	int getFlag();
+	Nabefuta(int num);//コンストラクタ
+	int getFlag();//flagの値を取得する
 };
 }
 namespace Precure {
-void action(void);
-void action(Cure::Nabefuta& a);
+void action(void);//引数なし版
+void action(Cure::Nabefuta& a);//引数がCure::Nabefutaのとき版
 }
 #endif
 
