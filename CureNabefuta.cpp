@@ -12,16 +12,3 @@ void Precure::action(Cure::Nabefuta& a) {
 	std::cout << "action! (" << a.getFlag() << ")" << std::endl;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
