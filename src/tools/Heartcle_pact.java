@@ -20,9 +20,9 @@ public class Heartcle_pact {
     public tropical_rouge_precure setKey() {
         System.err.println("key :" + key.toString());
         if (key.checkId(Heartcle_ring.CureSummer_key)) {
-            return Precure.tropical_change("CureSummer");
+            return new cure.Summer();
         } else {
-            return null;
+            throw new UnsupportedOperationException("No shch identer to transformation");
         }
     }
 

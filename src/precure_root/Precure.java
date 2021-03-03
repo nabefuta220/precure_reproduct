@@ -10,7 +10,7 @@ public class Precure {
     }
 
     // for cure summer's transformation
-    public static tropical_rouge_precure tropical_change(String identer) {
+    public static  tropical_rouge_precure tropical_change(String identer) {
         switch (identer) {
             case "CureSummer":
                 return new cure.Summer();
@@ -19,7 +19,7 @@ public class Precure {
     }
 
     // for cure summer's cure
-    public void otento_summer_strike(Precure_base summer) {
+    public void otento_summer_strike(tropical_rouge_precure summer) {
         if (summer.getId() != tools.Heartcle_ring.CureSummer_key.getId()) {
             throw new UnsupportedOperationException(
                     "id :" + summer.getId() + "cannot use Precure otento summer strike");

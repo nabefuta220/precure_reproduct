@@ -1,22 +1,21 @@
-ここでは、今回のコードを説明をしていきます。
 
-(技術情報)
+# 技術情報
 
 ```
-c:\Users\nabe_\Documents\GitHub\precure_reproduct\src>javac -version
+c:\XXXX\precure_reproduct\src>javac -version
 javac 14.0.2
 
-c:\Users\nabe_\Documents\GitHub\precure_reproduct\src>java --version
+c:\XXXX\precure_reproduct\src>java --version
 java 14.0.2 2020-07-14
 Java(TM) SE Runtime Environment (build 14.0.2+12-46)
 Java HotSpot(TM) 64-Bit Server VM (build 14.0.2+12-46, mixed mode, sharing)
 ```
 
-(プログラムの全体図)
+# プログラムの全体図
 
 
 
-![](..\out\docu\uml\uml.png)
+![](..\out\docu\uml\CureNabefuta.png)
 
 ### class cure.Nabefuta
 
@@ -129,9 +128,9 @@ namespaceの中にある関数などを使うときは、同じnamespaceの中�
 
 (ターミナルの出力)
 ```
-c:\Users\nabe_\Documents\GitHub\precure_reproduct>javac -classpath src -d bin src/Main.java
+c:\XXXX\precure_reproduct>javac -classpath src -d bin src/Main.java
 
-c:\Users\nabe_\Documents\GitHub\precure_reproduct>java -classpath bin Main
+c:\XXXX\precure_reproduct>java -classpath bin Main
 action :5
 NA
 ```
