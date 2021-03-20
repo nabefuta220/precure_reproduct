@@ -1,7 +1,7 @@
 package tools;
 
 public enum Heartcle_ring {
-    None(0x00000000), CureSummer_key(0X0000254),;
+    None(0x00000000), CureSummer_key(0X0000254),CureCoral_key(0x0000258);
 
     private int id;
 

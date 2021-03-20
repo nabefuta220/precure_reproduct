@@ -224,6 +224,7 @@ import tropical_rouge_precure_root.*;
 ## 技の繰り出し方
 
 どのような変身でも、次のような方法でできます。
+(今回はキュアサマーも場合でやっていますが、他のも同様にできます。)
 
 ```
 precure.otento_summer_strike(summer);

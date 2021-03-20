@@ -1,6 +1,7 @@
 
 package tools;
 
+import cure.Coral;
 import precure_root.Precure;
 import tropical_rouge_precure_root.*;
 
@@ -21,6 +22,8 @@ public class Heartcle_pact {
         System.err.println("key :" + key.toString());
         if (key.checkId(Heartcle_ring.CureSummer_key)) {
             return new cure.Summer();
+        } else if (key.checkId(Heartcle_ring.CureCoral_key)) {
+            return new cure.Coral();
         } else {
             throw new UnsupportedOperationException("No shch identer to transformation");
         }

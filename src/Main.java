@@ -6,15 +6,15 @@ public class Main {
 	public static void main(String[] args) {
 		Precure precure = new Precure();
 		// transfromation
-		// cure.Summer summer = new cure.Summer();// (a)
+		// cure.Coral coral = new cure.Coral();// (a)
 
-		// tropical_rouge_precure summer = Precure.tropical_change("CureSummer");// (b);
+		//tropical_rouge_precure coral = Precure.tropical_change("CureCoral");// (b);
 
 		Heartcle_pact pact = new Heartcle_pact();
-		tropical_rouge_precure summer = pact.setKey(Heartcle_ring.CureSummer_key);// (c)
+		tropical_rouge_precure coral = pact.setKey(Heartcle_ring.CureCoral_key);// (c)
 
 		// cure
-		precure.otento_summer_strike(summer);
+		precure.mokomoko_coral_refuseion(coral);
 
 	}
 }
