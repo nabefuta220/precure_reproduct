@@ -21,7 +21,7 @@ public class Coral extends tropical_rouge_precure {
         System.out.println("dress!");
         this.id = tools.Heartcle_ring.CureCoral_key.getId();
         // determin
-        System.out.println("Exciting jewel ! Cure Coral!");
+        System.out.println("Exciting jewel! Cure Coral!");
         this.state = Statement.ready;
     }
 
