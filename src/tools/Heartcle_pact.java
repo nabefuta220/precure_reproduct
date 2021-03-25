@@ -24,6 +24,8 @@ public class Heartcle_pact {
             return new cure.Summer();
         } else if (key.checkId(Heartcle_ring.CureCoral_key)) {
             return new cure.Coral();
+        } else if (key.checkId(Heartcle_ring.CurePapaya_key)) {
+            return new cure.Papaya();
         } else {
             throw new UnsupportedOperationException("No shch identer to transformation");
         }

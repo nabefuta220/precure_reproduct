@@ -16,6 +16,8 @@ public class Precure {
             return new cure.Summer();
         case "CureCoral":
             return new cure.Coral();
+        case "CurePapaya":
+            return new cure.Papaya();
         }
         throw new UnsupportedOperationException("No shch identer to transformation");
     }
@@ -33,10 +35,21 @@ public class Precure {
 
     public void mokomoko_coral_refuseion(tropical_rouge_precure coral) {
         if (coral.getId() != tools.Heartcle_ring.CureCoral_key.getId()) {
-            throw new UnsupportedOperationException("id :" + coral.getId() + " cannot use Precure mokomoko_coral_refuseion");
+            throw new UnsupportedOperationException(
+                    "id :" + coral.getId() + " cannot use Precure mokomoko_coral_refuseion");
         }
         System.out.println("heart rouge rod!");
 
         System.out.println("precure! mokomoko-coral refuseion!");
+    }
+
+    public void panpaka_papaya_shot(tropical_rouge_precure papaya) {
+        if (papaya.getId() != tools.Heartcle_ring.CurePapaya_key.getId()) {
+            throw new UnsupportedOperationException(
+                    "id :" + papaya.getId() + " cannot use Precure panpaka-papaya shot");
+        }
+        System.out.println("heart rouge rod!");
+
+        System.out.println("precure! panpaka-papaya shot!");
     }
 }
