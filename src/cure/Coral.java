@@ -21,11 +21,11 @@ public class Coral extends tropical_rouge_precure {
         System.out.println("dress!");
         this.id = tools.Heartcle_ring.CureCoral_key.getId();
         // determin
-        System.out.println("Exciting jewel summer! Cure Coral!");
+        System.out.println("Exciting jewel ! Cure Coral!");
         this.state = Statement.ready;
     }
 
-    public void crossGuard() {
+    public void batuGuard() {
         System.err.println("guard");
     }
 }
